@@ -8,7 +8,7 @@ Regexit is a lightweight package to handle Regex of commonly needing to be check
 
 ## To Use
 
-    import regexit from 'regexit'
+    const regexit = require('regexit')
 
     regexit(string, pattern)
 
@@ -33,6 +33,13 @@ Regexit is a lightweight package to handle Regex of commonly needing to be check
 * CSSComment
 * USCAZip
 * SSN
+
+## Quick Example
+
+    const regexit = require('regexit')
+
+    regexit('012-34-5678', 'SSN')
+
 
 ## Reporting issue / Feature (new pattern)
 
