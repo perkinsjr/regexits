@@ -23,7 +23,12 @@ const regexMap = {
 function regexify(input,pattern) {
     let string = input;
     let patternToMatch = regexMap[pattern];
-    return patternToMatch.test(string);
+
+    if (patternToMatch === undefined)
+        return 'no pattern ' + pattern + ' available'
+    
+        return patternToMatch.test(string);
+    
 }
 
 
