@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/perkinsjr/regexit.svg?branch=master)](https://travis-ci.com/perkinsjr/regexit)
+
 <div align="center">
 	<h2>
 		Regexit a light weight regex npm package for common used regex matches
@@ -17,6 +19,12 @@
     const regexit = require('regexit')
 
     regexit(string, pattern)
+
+## Quick Example
+
+    const regexit = require('regexit')
+
+    regexit('012-34-5678', 'SSN')
 
 ## Patterns that are current usable 
 
@@ -39,12 +47,16 @@
 * CSSComment
 * USCAZip
 * SSN
-
-## Quick Example
-
-    const regexit = require('regexit')
-
-    regexit('012-34-5678', 'SSN')
+* IPV4
+* IPV6
+* IPV4ORV6
+* InternationalPhone
+* VISA
+* MASTERCARD
+* AMEX
+* DINERS 
+* DISCOVER
+* JCB
 
 
 ## Reporting issue / Feature (new pattern)
