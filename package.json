@@ -1,7 +1,7 @@
 {
-  "name": "regexify",
+  "name": "regexit",
   "version": "1.0.0",
-  "description": "Regexify will perform curated regex on a strings",
+  "description": "regexit will perform curated regex on a strings",
   "main": "index.js",
   "scripts": {
     "test": "ava"

@@ -1,16 +1,16 @@
-# Regexify
+# Regexit
 
-Regexify is a lightweight package to handle Regex of commonly needing to be checked.
+Regexit is a lightweight package to handle Regex of commonly needing to be checked.
 
 ## To install
 
-    npm install regexify
+    npm install regexit
 
 ## To Use
 
-    import regexify from 'regexify'
+    import regexit from 'regexit'
 
-    regexify(string, pattern)
+    regexit(string, pattern)
 
 ## Patterns that are current usable 
 
