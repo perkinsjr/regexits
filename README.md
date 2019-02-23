@@ -1,9 +1,12 @@
-# Regexit
-
-Regexit is a lightweight package to handle Regex of commonly needing to be checked.
-
-
-[My Open source is supported by the community, Become a sponsor today](https://www.patreon.com/james_perkins)
+<div align="center">
+	<div>
+		Regexit a light weight regex npm package for common used regex matches
+	</div>
+	<br>
+	<p>
+		<a href="https://www.patreon.com/james_perkins">My open source work is supported by the community, become a sponser today!</a>
+	</p>
+</div>
 
 ## To install
 
