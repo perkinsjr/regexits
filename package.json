@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/perkinsjr/regexify.git"
+    "url": "git+https://github.com/perkinsjr/regexit.git"
   },
   "keywords": [
     "regex",
@@ -18,9 +18,9 @@
   "author": "James Perkins",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/perkinsjr/regexify/issues"
+    "url": "https://github.com/perkinsjr/regexit/issues"
   },
-  "homepage": "https://github.com/perkinsjr/regexify#readme",
+  "homepage": "https://github.com/perkinsjr/regexit#readme",
   "devDependencies": {
     "ava": "^1.2.1"
   }
