@@ -18,6 +18,12 @@
 
     regexit(string, pattern)
 
+## Quick Example
+
+    const regexit = require('regexit')
+
+    regexit('012-34-5678', 'SSN')
+
 ## Patterns that are current usable 
 
 * DateSlashes
@@ -39,12 +45,16 @@
 * CSSComment
 * USCAZip
 * SSN
-
-## Quick Example
-
-    const regexit = require('regexit')
-
-    regexit('012-34-5678', 'SSN')
+* IPV4
+* IPV6
+* IPV4ORV6
+* InternationalPhone
+* VISA
+* MASTERCARD
+* AMEX
+* DINERS 
+* DISCOVER
+* JCB
 
 
 ## Reporting issue / Feature (new pattern)
