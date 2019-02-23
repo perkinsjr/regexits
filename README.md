@@ -14,25 +14,25 @@ Regexify is a lightweight package to handle Regex of commonly needing to be chec
 
 ## Patterns that are current usable 
 
-.DateSlashes
-.Time24hr
-.ISO8601DT
-.HTMLtag
-.HEXColor
-.URLSlug
-.SrcImgTag
-.URL
-.PosInt
-.NegInt
-.Integer
-.PosNum
-.NegNum
-.Num
-.PhoneNum
-.NewLine
-.CSSComment
-.USCAZip
-.SSN
+* DateSlashes
+* Time24hr
+* ISO8601DT
+* HTMLtag
+* HEXColor
+* URLSlug
+* SrcImgTag
+* URL
+* PosInt
+* NegInt
+* Integer
+* PosNum
+* NegNum
+* Num
+* PhoneNum
+* NewLine
+* CSSComment
+* USCAZip
+* SSN
 
 ## Reporting issue / Feature (new pattern)
 
