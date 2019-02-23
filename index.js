@@ -1,6 +1,6 @@
 const helper = require('./helper/helper')
 
-function regexify(input, pattern) {
+function regexits(input, pattern) {
     let string = input;
     let patternToMatch = helper[pattern];
     if (patternToMatch === undefined)
@@ -11,4 +11,4 @@ function regexify(input, pattern) {
 }
 
 
-module.exports = regexify
+module.exports = regexits
