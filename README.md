@@ -2,6 +2,9 @@
 
 Regexit is a lightweight package to handle Regex of commonly needing to be checked.
 
+
+[My Open source is supported by the community, Become a sponsor today](https://www.patreon.com/james_perkins)
+
 ## To install
 
     npm install regexit
