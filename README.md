@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/perkinsjr/regexit.svg?branch=master)](https://travis-ci.com/perkinsjr/regexit)
+
 <div align="center">
 	<h2>
 		Regexit a light weight regex npm package for common used regex matches
