@@ -1,14 +1,14 @@
 {
-  "name": "regexit",
-  "version": "1.1.2",
-  "description": "regexit will perform curated regex on a strings",
+  "name": "regexits",
+  "version": "1.0.0",
+  "description": "regexits will perform curated regex on a strings",
   "main": "index.js",
   "scripts": {
     "test": "ava"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/perkinsjr/regexit.git"
+    "url": "git+https://github.com/perkinsjr/regexits.git"
   },
   "keywords": [
     "regex",
@@ -18,9 +18,9 @@
   "author": "James Perkins",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/perkinsjr/regexit/issues"
+    "url": "https://github.com/perkinsjr/regexits/issues"
   },
-  "homepage": "https://github.com/perkinsjr/regexit#readme",
+  "homepage": "https://github.com/perkinsjr/regexits#readme",
   "devDependencies": {
     "ava": "^1.2.1"
   }
