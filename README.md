@@ -2,7 +2,7 @@
 
 <div align="center">
 	<h2>
-		Regexit a light weight regex npm package for common used regex matches
+		Regexits a light weight regex npm package for common used regex matches
 	</h2>
 	<br>
 	<p>
@@ -12,17 +12,17 @@
 
 ## To install
 
-    npm install regexit
+    npm install regexits
 
 ## To Use
 
-    const regexit = require('regexit')
+    const regexits = require('regexits')
 
-    regexit(string, pattern)
+    regexits(string, pattern)
 
 ## Quick Example
 
-    const regexit = require('regexit')
+    const regexits = require('regexits')
 
     regexit('012-34-5678', 'SSN')
 
