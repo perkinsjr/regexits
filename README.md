@@ -4,11 +4,11 @@ Regexify is a lightweight package to handle Regex of commonly needing to be chec
 
 ## To install
 
-    npm install @Regexify
+    npm install regexify
 
 ## To Use
 
-    import regexify from '@Regexify'
+    import regexify from 'regexify'
 
     regexify(string, pattern)
 
