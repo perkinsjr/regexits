@@ -1,7 +1,7 @@
 <div align="center">
-	<div>
+	<h2>
 		Regexit a light weight regex npm package for common used regex matches
-	</div>
+	</h2>
 	<br>
 	<p>
 		<a href="https://www.patreon.com/james_perkins">My open source work is supported by the community, become a sponser today!</a>
