@@ -1,0 +1,27 @@
+{
+  "name": "regexify",
+  "version": "1.0.0",
+  "description": "Regexify will perform curated regex on a strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perkinsjr/regexify.git"
+  },
+  "keywords": [
+    "regex",
+    "strings",
+    "quickregex"
+  ],
+  "author": "James Perkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perkinsjr/regexify/issues"
+  },
+  "homepage": "https://github.com/perkinsjr/regexify#readme",
+  "devDependencies": {
+    "ava": "^1.2.1"
+  }
+}
