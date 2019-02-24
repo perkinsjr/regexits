@@ -47,6 +47,7 @@
 * CSSComment
 * USCAZip
 * SSN
+* EMAIL
 * IPV4
 * IPV6
 * IPV4ORV6
