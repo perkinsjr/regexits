@@ -1,16 +1,11 @@
 [![Build Status](https://travis-ci.com/perkinsjr/regexit.svg?branch=master)](https://travis-ci.com/perkinsjr/regexit)
-<a href="https://www.patreon.com/james_perkins">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
+
 
 <div align="center">
 	<h2>
 		Regexits a light weight regex npm package for common used regex matches
 	</h2>
 	<br>
-	<p>
-		<a href="https://www.patreon.com/james_perkins">My open source work is supported by the community, become a sponser today!</a>
-	</p>
 </div>
 
 ## To install
@@ -28,6 +23,11 @@
     const regexits = require('regexits')
 
     regexit('012-34-5678', 'SSN')
+
+
+<a  href="https://www.patreon.com/james_perkins">
+	<img style="text-align: center;" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
 
 ## Patterns that are current usable 
 
