@@ -10,5 +10,4 @@ function regexits(input, pattern) {
 
 }
 
-
 module.exports = regexits

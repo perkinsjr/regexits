@@ -26,16 +26,21 @@
 
     regexit('012-34-5678', 'SSN')
 
-## Patterns that are current usable 
+	returns true
+
+## Patterns that are current available  
 
 * DateSlashes
 * Time24hr
+* Date
 * ISO8601DT
 * HTMLtag
 * HEXColor
 * URLSlug
 * SrcImgTag
 * URL
+* Email
+* Password
 * PosInt
 * NegInt
 * Integer
@@ -50,13 +55,19 @@
 * IPV4
 * IPV6
 * IPV4ORV6
-* InternationalPhone
 * VISA
 * MASTERCARD
 * AMEX
-* DINERS 
+* DINERS
 * DISCOVER
-* JCB
+* JCB   
+* POBOX
+* SHA256
+* SHA1
+* MD5
+* MAINNET
+* TESTNET
+* GITHUB
 
 
 ## Reporting issue / Feature (new pattern)
