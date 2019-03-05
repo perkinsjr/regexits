@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/perkinsjr/regexit.svg?branch=master)](https://travis-ci.com/perkinsjr/regexit)
+[![Build Status](https://travis-ci.com/perkinsjr/regexits.svg?branch=master)](https://travis-ci.com/perkinsjr/regexits)
 
 
 <div align="center">
