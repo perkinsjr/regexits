@@ -23,22 +23,26 @@
     const regexits = require('regexits')
 
     regexit('012-34-5678', 'SSN')
+  
+    returns true
 
+## Patterns that are current available  
 
 <a  href="https://www.patreon.com/james_perkins">
 	<img style="text-align: center;" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
-## Patterns that are current usable 
-
 * DateSlashes
 * Time24hr
+* Date
 * ISO8601DT
 * HTMLtag
 * HEXColor
 * URLSlug
 * SrcImgTag
 * URL
+* Email
+* Password
 * PosInt
 * NegInt
 * Integer
@@ -54,13 +58,19 @@
 * IPV4
 * IPV6
 * IPV4ORV6
-* InternationalPhone
 * VISA
 * MASTERCARD
 * AMEX
-* DINERS 
+* DINERS
 * DISCOVER
-* JCB
+* JCB   
+* POBOX
+* SHA256
+* SHA1
+* MD5
+* MAINNET
+* TESTNET
+* GITHUB
 
 
 ## Reporting issue / Feature (new pattern)

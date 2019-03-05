@@ -155,6 +155,46 @@ test('JCB', t => {
     t.is(true,mapTest);
 } )
 
+test('POBOX', t => {
+    const mapTest = regexits('PO Box', "POBOX");
+    t.is(true,mapTest);
+})
+
+test('POBOX1', t => {
+    const mapTest = regexits('Post Office Box 123', "POBOX");
+    t.is(true,mapTest);
+})
+
+test('SHA256', t => {
+    const mapTest = regexits('7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069', "SHA256");
+    t.is(true,mapTest);
+})
+
+test('SHA1', t => {
+    const mapTest = regexits('2ef7bde608ce5404e97d5f042f95f89f1c232871', "SHA1");
+    t.is(true,mapTest);
+})
+
+test('MD5', t => {
+    const mapTest = regexits('00236a2ae558018ed13b5222ef1bd987', "MD5");
+    t.is(true,mapTest);
+})
+
+test('GITHUB', t => {
+    const mapTest = regexits('ssh://user@host.xz:port/path/to/repo.git/', "GITHUB");
+    t.is(true,mapTest);
+})
+
+test('MAINNET', t => {
+    const mapTest = regexits('bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq', "MAINNET");
+    t.is(true,mapTest);
+})
+
+test('TESTNET', t => {
+    const mapTest = regexits('2NCLmdnrxQErmJJPmGaSaE7NxuYKMNnYcxW', "TESTNET");
+    t.is(true,mapTest);
+})
+
 test('nopattern', t => {
     const mapTest = regexits('011-55-9087','NOTHING');
     t.is(mapTest,'no pattern ' + 'NOTHING' + ' available');

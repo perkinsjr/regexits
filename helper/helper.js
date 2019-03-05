@@ -30,5 +30,14 @@ const regexMap = {
     DINERS: /^3(?:0[0-5]|[68][0-9])[0-9]{11}$/ ,
     DISCOVER: /^6(?:011|5[0-9]{2})[0-9]{12}$/ ,
     JCB: /^(?:2131|1800|35\d{3})\d{11}$/,    
+    POBOX: /^ *((#\d+)|((box|bin)[-. \/\\]?\d+)|(.*p[ \.]? ?(o|0)[-. \/\\]? *-?((box|bin)|b|(#|num)?\d+))|(p(ost)? *(o(ff(ice)?)?)? *((box|bin)|b)? *\d+)|(p *-?\/?(o)? *-?box)|post office box|((box|bin)|b) *(number|num|#)? *\d+|(num|number|#) *\d+)/i ,
+    SHA256:/\b[A-Fa-f0-9]{64}\b/ ,
+    SHA1: /\b([a-f0-9]{40})\b/,
+    MD5: /^[a-f0-9]{32}$/i,
+    MAINNET:  /^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$/,
+    TESTNET:  /^(tb1|[2nm]|bcrt)[a-zA-HJ-NP-Z0-9]{25,40}$/,
+    GITHUB:  /(?:git|ssh|https?|git@[-\w.]+):(\/\/)?(.*?)(\.git)(\/?|\#[-\d\w._]+?)$/
+
+
 }
 module.exports = regexMap
