@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/perkinsjr/regexits.svg?branch=master)](https://travis-ci.com/perkinsjr/regexits)
+[![tippin.me](https://badgen.net/badge/%E2%9A%A1%EF%B8%8Ftippin.me/@james_r_perkins/F0918E)](https://tippin.me/@james_r_perkins)
 
 
 <div align="center">
