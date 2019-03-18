@@ -37,7 +37,5 @@ const regexMap = {
     MAINNET:  /^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$/,
     TESTNET:  /^(tb1|[2nm]|bcrt)[a-zA-HJ-NP-Z0-9]{25,40}$/,
     GITHUB:  /(?:git|ssh|https?|git@[-\w.]+):(\/\/)?(.*?)(\.git)(\/?|\#[-\d\w._]+?)$/
-
-
 }
 module.exports = regexMap

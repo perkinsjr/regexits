@@ -1,8 +1,10 @@
-const helper = require('./helper/helper')
+const regexpatterns = require('./helper/regexpatterns');
+const stringpattern = require('./helper/stringpattern');
 
-function regexits(input, pattern) {
+
+function match(input, pattern) {
     let string = input;
-    let patternToMatch = helper[pattern];
+    let patternToMatch = regexpatterns[pattern];
     if (patternToMatch === undefined)
         return 'no pattern ' + pattern + ' available'
 
@@ -10,4 +12,25 @@ function regexits(input, pattern) {
 
 }
 
-module.exports = regexits
+function removeFromString(input, pattern) {
+  let string = input;
+  let typeToRemove = stringpattern[pattern];
+
+
+  return string.replace(typeToRemove,'');
+}
+
+  const getURLParameters = url =>
+  (url.match(/([^?=&]+)(=([^&]*))/g) || []).reduce(
+    (a, v) => ((a[v.slice(0, v.indexOf('='))] = v.slice(v.indexOf('=') + 1)), a),
+    {}
+  );
+
+  
+
+module.exports = 
+{
+  match,
+  getURLParameters,
+  removeFromString
+};
