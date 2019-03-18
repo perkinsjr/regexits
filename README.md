@@ -2,9 +2,7 @@
 [![tippin.me](https://badgen.net/badge/%E2%9A%A1%EF%B8%8Ftippin.me/@james_r_perkins/F0918E)](https://tippin.me/@james_r_perkins)
 [![Donate.Paypal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/jamesperkinsOSS)
 [![Donate.Coffee](https://img.shields.io/badge/Donate-BuyMeCoffee-red.svg)](https://www.buymeacoffee.com/Of6xAMjSK)
-<a  href="https://www.patreon.com/james_perkins">
-	<img style="text-align: center;" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="100">
-</a>
+[![Donate.Patreon](https://img.shields.io/badge/Donate-Patreon-orange.svg)](https://www.patreon.com/james_perkins)
 
 <div align="center">
 	<h2>
