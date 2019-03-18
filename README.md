@@ -33,7 +33,7 @@
 
     const regexits = require('regexits')
 
-    regexit('012-34-5678', 'SSN')
+    regexit.match('012-34-5678', 'SSN')
   
     returns true
 
