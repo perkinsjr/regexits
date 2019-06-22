@@ -1,6 +1,6 @@
 {
   "name": "regexits",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "regexits will perform curated regex on a strings",
   "main": "index.js",
   "scripts": {
