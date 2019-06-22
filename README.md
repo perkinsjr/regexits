@@ -1,80 +1,90 @@
-[![Build Status](https://travis-ci.com/perkinsjr/regexits.svg?branch=master)](https://travis-ci.com/perkinsjr/regexits)
-[![tippin.me](https://badgen.net/badge/%E2%9A%A1%EF%B8%8Ftippin.me/@james_r_perkins/F0918E)](https://tippin.me/@james_r_perkins)
-[![Donate.Paypal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/jamesperkinsOSS)
-[![Donate.Coffee](https://img.shields.io/badge/Donate-BuyMeCoffee-red.svg)](https://www.buymeacoffee.com/Of6xAMjSK)
-[![Donate.Patreon](https://img.shields.io/badge/Donate-Patreon-orange.svg)](https://www.patreon.com/james_perkins)
+<h1 align="center">Welcome to Regexits 👋</h1>
+<p>
+  <img src="https://img.shields.io/badge/version-2.0.2-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/perkinsjr/regexits#readme">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/perkinsjr/regexits/graphs/commit-activity">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/perkinsjr/regexits/blob/master/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
+  </a>
+  <a href="https://twitter.com/james_r_perkins">
+    <img alt="Twitter: james_r_perkins" src="https://img.shields.io/twitter/follow/james_r_perkins.svg?style=social" target="_blank" />
+  </a>
+</p>
 
-<div align="center">
-	<h2>
-		Regexits a light weight regex npm package for common used regex match, string manipulation.
-	</h2>
-	<br>
-</div>
+> Regexits is a curated package to handle regex on your next project
 
-## To install
+### 🏠 [Homepage](https://github.com/perkinsjr/regexits#readme)
 
-    npm install regexits
+## Install
 
-## To Use
+```sh
+npm install
+```
 
-    const regexits = require('regexits')
+## Run tests
 
-    // To find if a string matches a pattern.
-    regexits.match(string, pattern);
+```sh
+npm run test
+```
+## How to use
 
-    // To remove a certain type from a string.
-    regexits.removeFromString(string, pattern);
+```sh
+const regexits = require('regexits')
 
-    // To get parameters from url.
-    regexits.getURLParameters(url);
-    
+// To find if a string matches a pattern.
+regexits.match(string, pattern);
 
-## Quick Example
+// To remove a certain type from a string.
+regexits.removeFromString(string, pattern);
 
-    const regexits = require('regexits')
+// To get parameters from url.
+regexits.getURLParameters(url);
+```
 
-    regexit.match('012-34-5678', 'SSN')
-  
-    returns true
+## What Regex matching is available 
+```sh
+DateSlashes , Time24hr , Date
+ISO8601DT , HTMLtag , HEXColor
+URLSlug , SrcImgTag , URL
+Email, Password , PosInt
+NegInt, Integer , PosNum
+NegNum, Num ,PhoneNum
+NewLine , CSSComment , USCAZip
+SSN , EMAIL, IPV4
+IPV6 , IPV4ORV6 , VISA
+MASTERCARD , AMEX ,DINERS
+DISCOVER, JCB , POBOX
+SHA256 , MD5 , MAINNET
+TESTNET , GITHUB
+```
 
-    const strippedString = regexits.removeFromString('REGE5634324XITS IS52353 GREA55454T' , 'REMOVENUMBERS');
+## Author
 
-    returns 'REGEXITS IS GREAT'
+👤 **James Perkins**
 
-    const parameter = regexits.getURLParameters('http://url.com/page?name=Adam&surname=Smith');
+* Twitter: [@james_r_perkins](https://twitter.com/james_r_perkins)
+* Github: [@perkinsjr](https://github.com/perkinsjr)
 
-    returns {name: 'Adam',surname: 'Smith',}
+## 🤝 Contributing
 
-## Patterns for matching that are current available  
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/perkinsjr/regexits/issues).
 
-* DateSlashes , Time24hr , Date
-* ISO8601DT , HTMLtag , HEXColor
-* URLSlug , SrcImgTag , URL
-* Email, Password , PosInt
-* NegInt, Integer , PosNum
-* NegNum, Num ,PhoneNum
-* NewLine , CSSComment , USCAZip
-* SSN , EMAIL, IPV4
-* IPV6 , IPV4ORV6 , VISA
-* MASTERCARD , AMEX ,DINERS
-* DISCOVER, JCB , POBOX
-* SHA256 , MD5 , MAINNET
-* TESTNET , GITHUB
+## Show your support
 
-## To remove from string
+Give a ⭐️ if this project helped you!
 
-* SPECIALCHARS
-* ALLWHITESPACE
-* TRIMEND
-* TRIMBEGIN
-* REMOVENUMBERS
-* LEAVENUMBERS
+<a href="https://www.patreon.com/james_perkins">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
 
+## 📝 License
 
-## Reporting issue / Feature (new pattern)
+Copyright © 2019 [James Perkins](https://github.com/perkinsjr).<br />
+This project is [MIT](https://github.com/perkinsjr/regexits/blob/master/LICENSE) licensed.
 
-To report issue please use the issue template in the repo to follow.
-
-## To Contribute
-
-To contribute please create a pull request
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
