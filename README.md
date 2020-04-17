@@ -68,7 +68,7 @@ TESTNET , GITHUB
 
 * Twitter: [@james_r_perkins](https://twitter.com/james_r_perkins)
 * Github: [@perkinsjr](https://github.com/perkinsjr)
-
+* Personal Site: [jamesperkins.io](https://jamesperkins.io)
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/perkinsjr/regexits/issues).
@@ -76,10 +76,6 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-<a href="https://www.patreon.com/james_perkins">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
 
 ## 📝 License
 
